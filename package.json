@@ -4,9 +4,10 @@
   "description": "\"# ChatApp\"",
   "main": "index.js",
   "scripts": {
-    "server": "node backend/server.js",
+    "server": "nodemon backend/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "type": "module",
   "keywords": [],
   "author": "",
   "license": "ISC",
